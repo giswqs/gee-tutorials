@@ -16,13 +16,13 @@ jobs:
                   python -m pip install --upgrade pip
                   pip install --user --no-cache-dir Cython
                   pip install --user -r requirements.txt
-                  pip install --user -r requirements_dev.txt
-            - name: LOAD EE CREDENTIALS
-              run: python ./.github/ee_token.py
-              env:
-                  EARTHENGINE_TOKEN: ${{ secrets.EARTHENGINE_TOKEN }}
-            - name: GEEMAP-TEST
-              run: |
-                  python -m unittest discover tests/
+                #   pip install --user -r requirements_dev.txt
+            # - name: LOAD EE CREDENTIALS
+            #   run: python ./.github/ee_token.py
+            #   env:
+            #       EARTHENGINE_TOKEN: ${{ secrets.EARTHENGINE_TOKEN }}
+            # - name: GEEMAP-TEST
+            #   run: |
+            #       python -m unittest discover tests/
             - run: pip install mkdocs-material mkdocstrings mkdocs-git-revision-date-plugin mkdocs-jupyter mkdocs-pdf-export-plugin
             - run: mkdocs gh-deploy --force
