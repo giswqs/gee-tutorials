@@ -1,0 +1,46 @@
+site_name: GEE Tutorials
+
+site_url: https://giswqs.github.io/gee-tutorials
+
+repo_url: https://github.com/giswqs/gee-tutorials
+
+theme:
+    palette:
+        scheme: preference
+    name: material
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.instant
+        # - navigation.expand
+        # - navigation.tabs
+        - search.highlight
+    custom_dir: "docs/overrides"
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    # - pdf-export
+    - mkdocs-jupyter:
+          include_source: True
+          # execute: True
+
+markdown_extensions:
+    - attr_list
+    - toc:
+          permalink: true
+
+google_analytics:
+    - UA-186406134-1
+    - auto
+
+nav:
+    - Home: index.md
+    - Image:
+          - Image/image_overview.ipynb
+    - geemap: https://geemap.org
+    - Blog: https://blog.gishub.org
+    - YouTube Channel: https://www.youtube.com/c/QiushengWu
+    - Report Issues: https://github.com/giswqs/gee-tutorials/issues
+ 
