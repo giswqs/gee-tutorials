@@ -40,6 +40,7 @@ nav:
     - Image:
           - Image/image_overview.ipynb
           - Image/image_visualization.ipynb
+          - Image/image_metadata.ipynb
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu
