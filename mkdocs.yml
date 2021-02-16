@@ -43,6 +43,8 @@ nav:
           - Image/image_metadata.ipynb
           - Image/math_operations.ipynb
           - Image/conditional_operations.ipynb
+    - ImageCollection:
+          - ImageCollection/image_collection_overview.ipynb
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu
