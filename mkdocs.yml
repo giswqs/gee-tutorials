@@ -45,6 +45,7 @@ nav:
           - Image/conditional_operations.ipynb
     - ImageCollection:
           - ImageCollection/image_collection_overview.ipynb
+          - ImageCollection/reducing_image_collection.ipynb
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu
