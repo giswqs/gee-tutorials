@@ -1,1 +1,1 @@
-geemap
+git+git://github.com/giswqs/geemap
