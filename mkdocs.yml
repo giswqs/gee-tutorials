@@ -47,6 +47,8 @@ nav:
           - ImageCollection/image_collection_overview.ipynb
           - ImageCollection/reducing_image_collection.ipynb
           - ImageCollection/mapping_over_image_collection.ipynb
+          - ImageCollection/cloud_free_composite.ipynb
+          -
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu

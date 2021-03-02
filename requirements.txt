@@ -1,1 +1,1 @@
-git+git://github.com/giswqs/geemap@a64faa5
+git+git://github.com/giswqs/geemap
