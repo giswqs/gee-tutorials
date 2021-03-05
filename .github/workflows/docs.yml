@@ -23,5 +23,9 @@ jobs:
             # - name: GEEMAP-TEST
             #   run: |
             #       python -m unittest discover tests/
-            - run: pip install mkdocs-material mkdocstrings mkdocs-git-revision-date-plugin mkdocs-jupyter mkdocs-pdf-export-plugin ipykernel
-            - run: mkdocs gh-deploy --force
+            - name: Install dependencies
+              run: pip install mkdocs-material mkdocstrings mkdocs-git-revision-date-plugin mkdocs-jupyter mkdocs-pdf-export-plugin ipykernel
+            - name: depoly
+              run: mkdocs gh-deploy --force
+              env:
+                  RUN_GITHUB_ACTION: ${{ secrets.RUN_GITHUB_ACTION }}
