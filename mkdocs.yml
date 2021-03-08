@@ -43,12 +43,14 @@ nav:
           - Image/image_metadata.ipynb
           - Image/math_operations.ipynb
           - Image/conditional_operations.ipynb
-    - ImageCollection:
+    - Image Collection:
           - ImageCollection/image_collection_overview.ipynb
           - ImageCollection/reducing_image_collection.ipynb
           - ImageCollection/mapping_over_image_collection.ipynb
           - ImageCollection/cloud_free_composite.ipynb   
           - ImageCollection/visualizing_time_series.ipynb   
+    - Asset Management:
+          - AssetManagement/export_data.ipynb
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu
