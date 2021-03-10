@@ -48,7 +48,9 @@ nav:
           - ImageCollection/reducing_image_collection.ipynb
           - ImageCollection/mapping_over_image_collection.ipynb
           - ImageCollection/cloud_free_composite.ipynb   
-          - ImageCollection/visualizing_time_series.ipynb   
+          - ImageCollection/visualizing_time_series.ipynb  
+    - Feature Collection:
+          - FeatureCollection/vector_styling.ipynb
     - Asset Management:
           - AssetManagement/export_data.ipynb
     - geemap: https://geemap.org
