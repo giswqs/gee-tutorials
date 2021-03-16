@@ -54,7 +54,9 @@ nav:
           - FeatureCollection/vector_styling.ipynb
     - Asset Management:
           - AssetManagement/export_data.ipynb
-          - AssetManagement/extract_values.ipynb
+          - AssetManagement/extract_values.ipynb    
+    - Analysis:
+          - Analysis/zonal_statistics.ipynb
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu
