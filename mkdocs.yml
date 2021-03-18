@@ -57,6 +57,7 @@ nav:
           - AssetManagement/extract_values.ipynb    
     - Analysis:
           - Analysis/zonal_statistics.ipynb
+          - Analysis/zonal_stats_by_group.ipynb
     - geemap: https://geemap.org
     - Blog: https://blog.gishub.org
     - YouTube Channel: https://www.youtube.com/c/QiushengWu
